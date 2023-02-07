@@ -4,3 +4,6 @@ componentes of the application for various devices.
 new updates
 Build Automation transforms commits by team members, automatically to published
 deployment artifacts
+
+Once team member commits a number of code changes, the code changes
+can be merge automatically
