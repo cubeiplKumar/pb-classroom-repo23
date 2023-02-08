@@ -21,6 +21,26 @@ class Main {
     catch(Exception e) {
       e.getStackTrace();
     }
+
+	#Feature202 changes by Vignesh on Reports Methods on 08-feb-2023
+	String data = "This is the data in the output file";
+     try {
+       // Creates a Writer using FileWriter
+       FileWriter output = new FileWriter("output.txt");
+
+       // Writes string to the file
+       output.write(data);
+       System.out.println("Data is written to the file.");
+
+       // Closes the writer
+       output.close();
+     }
+     catch (Exception e) {
+       e.getStackTrace();
+     }
+  }
+	
+
 	#feature201 changes by Nisha on Services Methods on 08-feb-2023
 // creates a file object
     File file = new File("file.txt");
@@ -34,4 +54,5 @@ class Main {
       System.out.println("The File is not deleted.");
     }
   }	
+
   }
