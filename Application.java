@@ -21,4 +21,17 @@ class Main {
     catch(Exception e) {
       e.getStackTrace();
     }
+	#feature201 changes by Nisha on Services Methods on 08-feb-2023
+// creates a file object
+    File file = new File("file.txt");
+
+    // deletes the file
+    boolean value = file.delete();
+    if(value) {
+      System.out.println("The File is deleted.");
+    }
+    else {
+      System.out.println("The File is not deleted.");
+    }
+  }	
   }
