@@ -7,3 +7,6 @@ deployment artifacts
 
 Once team member commits a number of code changes, the code changes
 can be merge automatically
+New chagnes
+Docker images are like Snapshot of a containers file system
+which consists of both application and its relevant dependencies
