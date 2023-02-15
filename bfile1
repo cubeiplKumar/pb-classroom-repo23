@@ -10,3 +10,10 @@ can be merge automatically
 New chagnes
 Docker images are like Snapshot of a containers file system
 which consists of both application and its relevant dependencies
+
+Modifications
+Docker interface is simple and users can easily create and implement applications
+Docker file
+docker images
+docker containers
+
